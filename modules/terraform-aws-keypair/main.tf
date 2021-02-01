@@ -7,7 +7,7 @@ provider "aws" {
 # Labels
 ########
 module "label" {
-  source     = "../terraform-aws-label"
+  source     = "../terraform-aws-label-server"
   namespace  = var.namespace
   name       = var.name
   stage      = var.stage
